@@ -13,10 +13,10 @@ body {
 }
 
 .navbar {
-  display: flex;
+  display: flexbox;
   background-color: #322e2d;
   margin-top: -110px;
-  width: 1273px;
+  width: 100%;
   margin-left: -17px;
   height: 80px;
   position: fixed;
@@ -55,7 +55,7 @@ body {
 
 h1 {
   text-align: center;
-  font-family: Sirens DEMO;
+  font-family: "Poor Story", system-ui;
   color: #322e2d;
   font-weight: 90;
   margin-top: 50px;
