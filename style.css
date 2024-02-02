@@ -1,0 +1,136 @@
+body {
+  background-image: linear-gradient(
+    to right bottom,
+    #f6d3f1,
+    #e2e1ff,
+    #d3eeff,
+    #d4f8ff,
+    #e3fef8
+  );
+}
+
+.navbar {
+  display: flexbox;
+  background-color: #322e2d;
+  margin-top: -110px;
+  width: 1273px;
+  margin-left: -17px;
+  height: 80px;
+  position: fixed;
+}
+
+.navbar img {
+  width: 100%;
+  float: left;
+  width: 60px;
+  margin: 10px;
+  border-radius: 10px;
+  margin-left: 20px;
+}
+
+.navbar ul {
+  overflow: auto;
+}
+
+.navbar li {
+  float: right;
+  list-style-type: none;
+  margin: 00px 30px;
+  margin-top: 15px;
+}
+
+.navbar li a {
+  color: #d6f9b5;
+  font-size: 15px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+#sec3 {
+  margin-top: 110px;
+}
+
+h1 {
+  text-align: center;
+  font-family: Sirens DEMO;
+  color: #322e2d;
+  font-weight: 90;
+  margin-top: 50px;
+  font-size: 50px;
+}
+
+#p1 {
+  color: #322e2d;
+  text-align: center;
+  margin: 15px;
+  font-family: Dosis SemiBold;
+  font-size: 21px;
+}
+
+#img1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 10px solid #322e2d;
+  border-radius: 40px;
+}
+
+#sec1 {
+  font-family: Comic Sans MS;
+  background-color: #d6f9b5;
+  display: inline-block;
+  border: 4px solid #2f362d;
+  border-radius: 10px;
+  padding: 10px;
+  margin-left: 130px;
+  float: left;
+}
+
+#sec1:hover {
+  transform: scale(1.05);
+  transition: 500ms;
+}
+
+#sec2 {
+  font-family: Comic Sans MS;
+  background-color: #f6d3f1;
+  display: inline-block;
+  border: 4px solid #2f362d;
+  border-radius: 10px;
+  padding: 10px;
+  margin-left: 90px;
+  float: right;
+  margin-right: 140px;
+}
+
+#sec2:hover {
+  transform: scale(1.05);
+  transition: 500ms;
+}
+
+footer {
+  display: inline-block;
+  border: 3px solid #848e89;
+  background-color: #e3fef8;
+  border-radius: 30px;
+  padding: 6px;
+  margin-left: 558px;
+  margin-top: 20px;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:link {
+  color: black;
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
