@@ -1,79 +1,86 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
 body {
-  background-image: linear-gradient(
-    to right bottom,
-    #f6d3f1,
-    #e2e1ff,
-    #d3eeff,
-    #d4f8ff,
-    #e3fef8
-  );
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: contain;
+	background-image: linear-gradient(
+		to right bottom,
+		#f6d3f1,
+		#e2e1ff,
+		#d3eeff,
+		#d4f8ff,
+		#e3fef8
+	);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: contain;
 }
 
-.navbar {
-  display: flexbox;
-  background-color: #322e2d;
-  margin-top: -110px;
-  width: 100%;
-  margin-left: -17px;
-  height: 80px;
-  position: fixed;
+nav {
+	margin-top: -100px;
+	background-color: #322e2d;
+	width: 100%;
+	height: 80px;
+	position: fixed;
 }
 
-.navbar img {
-  width: 100%;
-  float: left;
-  width: 60px;
-  margin: 10px;
-  border-radius: 10px;
-  margin-left: 20px;
+nav img {
+	width: 100%;
+	float: left;
+	width: 60px;
+	margin: 10px;
+	border-radius: 10px;
+	margin-left: 20px;
 }
 
-.navbar ul {
-  overflow: auto;
+nav ul {
+	display: flex;
+	width: 100%;
+	list-style-type: none;
+	justify-content: flex-end;
+	align-items: center;
 }
 
-.navbar li {
-  float: right;
-  list-style-type: none;
-  margin: 00px 30px;
-  margin-top: 15px;
+nav li {
 }
 
-.navbar li a {
-  color: #d6f9b5;
-  font-size: 15px;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+nav a {
+	color: #aae9b3;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	margin-top: -45px;
+	height: 100%;
+	padding: 0 30px;
+	text-decoration: none;
+	display: flex;
+	align-items: center;
 }
 
 #sec3 {
-  margin-top: 110px;
+	margin-top: 100px;
 }
 
 h1 {
-  text-align: center;
-  font-family: "Poor Story", system-ui;
-  color: #322e2d;
-  font-weight: 90;
-  margin-top: 50px;
-  font-size: 50px;
+	text-align: center;
+	font-family: "Nunito", sans-serif;
+	color: #322e2d;
+	font-weight: 90;
+	margin-top: 50px;
+	font-size: 60px;
 }
 
 #p1 {
-  color: #322e2d;
-  text-align: center;
-  margin: 15px;
-  font-family: "Dosis", sans-serif;
-  font-size: 21px;
+	color: #322e2d;
+	text-align: center;
+	margin: 15px;
+	font-family: "Dosis", sans-serif;
+	font-size: 30px;
 }
 
 #img1 {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  border: 10px solid #322e2d;
-  border-radius: 40px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border: 10px solid #322e2d;
+	border-radius: 40px;
 }
