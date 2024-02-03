@@ -93,7 +93,7 @@ a:hover {
   }
 }
 
-@media (max-width: 895px) {
+@media (max-width: 600px) {
   label.logo {
     margin: 0px 70px;
   }
