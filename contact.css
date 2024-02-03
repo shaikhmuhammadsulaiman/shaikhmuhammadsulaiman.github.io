@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(
+    to right bottom,
+    #f6d3f1,
+    #e2e1ff,
+    #d3eeff,
+    #d4f8ff,
+    #e3fef8
+  );
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: contain;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: calibri;
+}
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+nav {
+  width: 100%;
+  height: 80px;
+  margin-top: -110px;
+  background: #322e2d;
+  position: fixed;
+}
+
+label.logo {
+  font-size: 35px;
+  color: white;
+  margin: 0 100px;
+  line-height: 80px;
+}
+
+nav ul {
+  float: right;
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline-block;
+  line-height: 80px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  text-transform: capitalize;
+  padding: 8px 20px;
+}
+
+nav ul li a.active,
+a:hover {
+  background: #005a34;
+}
+
+#checkbtn {
+  float: right;
+  line-height: 80px;
+  margin-right: 10px;
+  font-size: 30px;
+  color: white;
+  display: none;
+}
+
+#check {
+  display: none;
+}
+
+#check:checked ~ ul {
+  left: 0;
+}
+
+@media (max-width: 400px) {
+  label.logo {
+    font-size: 26px;
+    margin: 0px 50px;
+  }
+}
+
+@media (max-width: 895px) {
+  label.logo {
+    margin: 0px 70px;
+  }
+  #checkbtn {
+    display: block;
+  }
+  nav ul {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    position: fixed;
+    top: 80px;
+    left: -100%;
+    transition: 0.5s;
+  }
+  nav ul li {
+    display: block;
+    text-align: center;
+    line-height: 50px;
+    margin: 15px;
+  }
+}
+
+#img10 {
+  height: 60px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+#sec3 {
+  margin-top: 110px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 30px;
+}
+
+#ul10 {
+  width: 100%;
+  text-align: center;
+  font-size: 25px;
+  list-style: none;
+}
+
+div {
+  width: 100%;
+  display: block;
+  border: 10px solid #322e2d;
+  border-radius: 20px;
+  padding: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
